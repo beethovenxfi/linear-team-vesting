@@ -1,7 +1,7 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import moment from "moment";
 
-const beneficiary = process.env.BENEFICIARY;
+const beneficiary = "0xa1CA7e34109Ec53a1bc4549e26289acFAea776AB";
 const start = moment("2021-10-09 12:00");
 const cliff = 0;
 const duration = start.clone().add(4, "years").diff(start, "seconds");
